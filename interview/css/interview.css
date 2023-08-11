@@ -1,0 +1,359 @@
+div#interviewvisual_wrap{
+  width: 100%;
+  height: 555px;
+  background: url(../images/interviewmain.png) no-repeat;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+}
+div.submenu_title{
+  width: 1200px;
+  height: 555px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div.submenu_title p{
+  width: 260px;
+  height: 60px;
+  font: bold 36px/60px "Noto Sans KR";
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -130px;
+}
+div#interviewcontents_wrap{
+  width: 100%;
+  height: auto;
+}
+div#ceo_interview_wrap{
+  width: 100%;
+  height: 880px;
+}
+nav#interviewmenu{
+  width: 1200px;
+  height: 70px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+ul#interviewmenu_list{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  color: #dfdfdf;
+}
+ul#interviewmenu_list li{
+  width: 180px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  margin-right: 150px;
+  cursor: pointer;
+}
+ul#interviewmenu_list li:hover{
+  color: black;
+  transform: scale(1.2,1.2);
+}
+ul#interviewmenu_list li:last-child{
+  margin-right: 0px;
+}
+nav#interviewmenu::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #dfdfdf;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  opacity: 0.5;
+}
+div#ceo_interview{
+  width: 1200px;
+  height: 810px;
+  margin: 0px auto;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+h3.interview_title{
+  width: 300px;
+  height: 45px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -150px;
+  font: bold 32px/45px "Noto Sasn KR";
+  color: black;
+  text-align: center;
+}
+div#interview_box{
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+}
+div#interview_box p#hello{
+  width: 1200px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #1B2040;
+  color: white;
+  font: bold 24px/100px "Noto Sans KR";
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+div#interview_text{
+  width: 1200px;
+  height: 400px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #F2F2F2;
+  padding: 60px;
+  box-sizing: border-box;
+}
+div#interview_text p#mynameis{
+  font: normal 20px/30px "Noto Sans KR";
+  color: black;
+  margin-bottom: 20px;
+}
+div#interview_text p#hi{
+  font: bold 20px/40px "Noto Sans KR";
+  margin-bottom: 20px;
+} 
+div#interview_text p#sign{
+  font: bold 16px "Noto Sans KR";
+  color: black;
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+div#certification_wrap{
+  width: 100%;
+  height: 743px;
+  background: url(../images/certification_wrap.png);
+  background-size: cover;
+}
+div#certification{
+  width: 1200px;
+  height: 743px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+ul#certification_img li{
+  width: 300px;
+  height: 440px;
+  float: left;
+  margin-right: 150px;
+  position: relative;
+  top: 200px;
+  left: 0px;
+}
+ul#certification_img>li>p.img{
+  width: 300px;
+  height: 390px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+ul#certification_img>li>p.img>img{
+  width: 100%;
+  height: 390px;
+}
+ul#certification_img>li>p.text{
+  width: 300px;
+  height: 50px;
+  font: normal 20px/50px "Noto Sans KR";
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  
+}
+ul#certification_img li:last-child{
+  margin-right: 0px;
+}
+h3#interview_title_2{
+  color: white;
+}
+div#organization_chart_wrap{
+  width: 100%;
+  height: 870px;
+}
+div#organization_chart{
+  width: 1200px;
+  height: 870px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#organization_chart p{
+  width: 106px;
+  height: 106px;
+  border-radius: 53px;
+  background-color: #4973F2;
+  text-align: center;
+  font: bold 20px/106px "Noto Sans KR";
+  color: white;
+  position: absolute;
+  left: 50%;
+  margin-left: -53px;
+  top: 160px;
+}
+div#organization_chart p::after{
+  content: "";
+  width: 1px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+}
+div#organization_chart_box{
+  width: 1200px;
+  height: 370px;
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  margin-left: -600px;
+  display: flex;
+  justify-content: space-between;
+}
+div#organization_chart_box::before{
+  content: "";
+  width: 955px;
+  height: 70px;
+  border: solid 1px black;
+  border-bottom: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -477px;
+  top: -50px;
+}
+div#organization_chart_box ul{
+  width: 245px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+div#organization_chart_box ul li{
+  width: 245px;
+  height: 50px;
+  background-color: #F2F2F2;
+  font: normal 20px "Noto Sans KR";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+div#organization_chart_box ul li::after{
+  content: "";
+  width: 1px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+}
+div#organization_chart_box ul li:last-child::after{
+  display: none;
+}
+div#organization_chart_box ul li.chart_point{
+  font: normal 20px "Noto Sans KR";
+  background-color: #1B2040;
+  color: white;
+}
+div#interview_map_wrap{
+  width: 100%;
+  height: 830px;
+  background-color: #F2F2F2;
+}
+div#interview_map{
+  width: 1200px;
+  height: 830px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#interview_map p#map_img{
+  width: 100%;
+  height: 340px;
+  background: url(../images/interview_map.png) no-repeat;
+  position: absolute;
+  top: 190px;
+  left: 0px;
+}
+div#interview_map ul#map_text_list{
+  width: 100%;
+  height: 130px;
+  font: lighter 20px/43px "Noto Sans KR" ;
+  position: absolute;
+  top: 630px;
+  left: 0px;
+}
+div#interview_map ul#map_text_list li{
+  width: 1200px;
+  height:40px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#interview_map ul#map_text_list li span{
+  float: left;
+}
+div#interview_map ul#map_text_list>li::after{
+  content: " ";
+  width: 1200px;
+  height: 1px;
+  background-color: #cccccc;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+ul#map_text_list li>span.map_text_title{
+  width: 100px;
+  height: 28px;
+  text-align: center;
+  display: block;
+}
+ul#map_text_list li>span.map_text_title::after{
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+ul#map_text_list li>span.map_text{
+  width: 370px;
+  height: 28px;
+  display: block;
+}

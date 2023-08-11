@@ -1,0 +1,197 @@
+div#businessareas_wrap{
+  width: 100%;
+  height: 555px;
+  background: url(../../images/businessareas_main.jpg) no-repeat;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+}
+div.submenu_title{
+  width: 1200px;
+  height: 555px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div.submenu_title p{
+  width: 260px;
+  height: 60px;
+  font: bold 36px/60px "Noto Sans KR";
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -130px;
+}
+div#businessareas_contents_wrap{
+  width: 100%;
+  height: auto;
+}
+nav#businessareas_menu{
+  width: 1200px;
+  height: 70px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+ul#businessareas_menu_list{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  color: #dfdfdf;
+}
+ul#businessareas_menu_list li{
+  width: 180px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  margin-right: 150px;
+  cursor: pointer;
+}
+ul#businessareas_menu_list li:hover{
+  color: black;
+  transform: scale(1.2,1.2);
+}
+ul#businessareas_menu_list li:last-child{
+  margin-right: 0px;
+}
+nav#businessareas_menu::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #dfdfdf;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  opacity: 0.5;
+}
+div#businessareas{
+  width: 1200px;
+  height: 135px;
+  margin: 0px auto;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+h3.businessareas_title{
+  width: 300px;
+  height: 45px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -150px;
+  font: bold 32px/45px "Noto Sasn KR";
+  color: black;
+  text-align: center;
+}
+div#guard_operation_wrap{
+  width: 100%;
+  height: 830px;
+}
+div#guard_operation{
+  width: 1200px;
+  height: 830px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+h4.guard_subtitle{
+  width: 200px;
+  height: 35px;
+  font: bold 24px "Noto Sans KR";
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+div#guard_operation>p#guard_subtext_title{
+  width: 1200px;
+  height: 60px;
+  font: normal 20px/30px "Noto Sans KR";
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+div#guard_operation>p#guard_subtext_title>span{
+  font: bold 20px/30px "Noto Sans KR"
+}
+ul#guard_text_box{
+  width: 1200px;
+  height: 490px;
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+ul#guard_text_box>li{
+  width: 360px;
+  height: 235px;
+  border: solid 5px #F2F2F2;
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+ul#guard_text_box>li>p.guard_operation_icon{
+  width: 73px;
+  height: 73px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+ul#guard_text_box>li>p.guard_operation_icon img{
+  width: 100%;
+}
+p.guard_operation_texttitle{
+  width: 100px;
+  height: 30px;
+  font: bold 20px/30px "Noto Sans KR";
+  color: #4973F2;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+ul#guard_text_box>li>ul{
+  width: 230px;
+  height: 70px;
+  position: absolute;
+  left: 40px;
+  bottom: 10px;
+  font: normal 16px/24px "Noto Sans KR";
+}
+ul#guard_text_box>li>ul>li{
+  list-style: disc;
+}
+div#guard_process_wrap{
+  width: 100%;
+  height: 900px;
+}
+div#guard_process{
+  width: 1200px;
+  height: 900px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+section#guard_process_img{
+  width: 1200px;
+  height: 641px;
+  position: absolute;
+  bottom: 80px;
+  left: 0px;
+}
+section#guard_process_img img{
+  width: 100%;
+}
