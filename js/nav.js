@@ -14,7 +14,20 @@ document.addEventListener('DOMContentLoaded', () => {
     item.addEventListener('mouseenter', overSubMenu)
   }
   headerWrap.addEventListener('mouseleave', inactivateMenu)
+  headerWrap.addEventListener('scroll', scrollEventMenu)
 
+  function scrollEventMenu() {
+   let scrollposition = window.pageXOffset;
+    if (scrollposition >= 30 + 'px') {
+      console.log('hello');
+      gsap.to(headerWrap, {
+        background: '#1B2040', duration: 0.5, onComplete: () => {
+          gsap.set(headerWrap, { background: '#1B2040' });
+          gsap.set(subMenuList, { height: closeHeight });
+        }
+      });
+    }
+  }
   function overMainMenu() {
     activateMenu(this)
   }

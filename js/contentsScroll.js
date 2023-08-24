@@ -1,9 +1,11 @@
 window.addEventListener('load', () => {
   const $contents = document.querySelectorAll('#main_contents>div')
   const $businessSection = document.querySelectorAll('#business_section>li')
+  const $headerWrap = document.querySelector('#header_wrap')
 
   //  window.addEventListener('mousewheel',wheelWindow)
   window.addEventListener('scroll', scrollEvent)
+  window.addEventListener('scroll', scrollEventMenu)
 
   let windowHeight = window.innerHeight;
   let clickIndex = 0;
@@ -11,8 +13,16 @@ window.addEventListener('load', () => {
   let isWheel = false;
   let scrollposition = null;
 
-
-
+  function scrollEventMenu() {
+    // console.log('hello')
+    scrollposition = window.pageYOffset
+    if (scrollposition >= 30 ) {
+      // console.log('hello');
+      gsap.to($headerWrap, { backgroundColor: 'white',color:'#1B2040',duration: 0.5, });
+    }else if(scrollposition<30){
+      gsap.set($headerWrap,{backgroundColor:'none'})
+    }
+  }
   function activateMainMenu(index) {
     if (selectedMenu != null && selectedMenu != $mainMenu[index]) {
       selectedMenu.classList.remove('selected')
