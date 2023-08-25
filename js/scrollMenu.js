@@ -1,7 +1,7 @@
 window.addEventListener('load',()=>{
   const $headerWrap = document.querySelector('#header_wrap')
   const $mainMenu=document.querySelectorAll('#mainmenu_list>li>a');
-  const $logo= document.querySelector('#logo>span')
+  const $logo= document.querySelector('#logo>a>span')
   const $subMenuList = document.querySelectorAll('.submenu_list');
 
   window.addEventListener('scroll', scrollEventMenu)
