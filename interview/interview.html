@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/jinwon/css/reset.css">
-  <link rel="stylesheet" href="/jinwon/css/common.css">
-  <link rel="stylesheet" href="/jinwon/interview/css/interview.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="./css/interview.css">
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js'></script>
 
-  <script src="/jinwon/js/nav.js"></script>
+  <script src="../js/nav.js"></script>
   <title>jinwon interview</title>
 </head>
 <body>
@@ -24,14 +24,14 @@
     <!--상단영역 시작-->
     <div id="header_wrap">
       <header>
-        <h1 id="logo"><a href="/jinwon/index.html">
-          <p><img src="/jinwon/images/jinwon_logo.png" alt="로고"></p>
+        <h1 id="logo"><a href="../index.html">
+          <p><img src="../images/jinwon_logo.png" alt="로고"></p>
           <span>(주)진원종합관리</span>
         </a></h1>
         <nav id="mainmenu">
           <h2 class="hidden">메인메뉴</h2>
           <ul id="mainmenu_list">
-            <li><a href="/jinwon/interview/interview.html">회사소개</a>
+            <li><a href="./interview.html">회사소개</a>
               <ul class="submenu_list">
                 <li><a href="#">CEO인사말</a></li>
                 <li><a href="#">허가 및 인증현황</a></li>
@@ -39,7 +39,7 @@
                 <li><a href="#">찾아오시는길</a></li>
               </ul>
               </li>
-            <li><a href="/jinwon/business_areas/business_areas.html">사업분야</a>
+            <li><a href="../business_areas/business_areas.html">사업분야</a>
               <ul class="submenu_list">
                 <li><a href="#">건물종합관리</a></li>
                 <li><a href="#">시설관리</a></li>
@@ -47,7 +47,7 @@
                 <li><a href="#">경비&middot;주차</a></li>
                 </ul>
             </li>
-            <li><a href="#">사업실적</a>
+            <li><a href="../business_performance/">사업실적</a>
               <ul class="submenu_list">
                 <li><a href="#">사업실적</a></li>
               </ul>
@@ -171,6 +171,16 @@
       <div id="interview_map">
         <h3 class="interview_title">찾아오시는길</h3>
         <p id="map_img"></p>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ed40b48e303fb91d60041d0804553856"></script>
+        <script>
+          var container = document.getElementById('map_img');
+          var options = {
+            center: new kakao.maps.LatLng(37.62201609704858, 127.0866519202624),
+            level: 3
+          };
+
+          var map = new kakao.maps.Map(container, options);
+        </script>
         <ul id="map_text_list">
           <li><span class="map_text_title">주소</span><span class="map_text">서울 노원구 노원로 3, 506호 우토파크프라자</span></li>
           <li><span class="map_text_title">전화</span><span class="map_text"> 02-949-3422</span></li>
