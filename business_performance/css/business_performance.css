@@ -1,0 +1,17 @@
+div#business_performance_wrap{
+  width: 100%;
+  height: 555px;
+  background: url(../images/interviewmain.png) no-repeat;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+}
+div.submenu_title{
+  width: 1200px;
+  height: 555px;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
