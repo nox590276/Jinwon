@@ -320,6 +320,7 @@ ul#mainmajor_img li {
   overflow: hidden;
   transition: transform 0.3s;
 }
+
 ul#mainmajor_img li img {
   width: 100%;
 }
@@ -332,13 +333,16 @@ ul#mainmajor_img li:hover img {
 div#maincontents_major button#more {
   width: 200px;
   height: 60px;
-  font: bold 20px "Noto Sans";
   background-color: #1B2040;
-  color: white;
   position: absolute;
   top: 780px;
   left: 50%;
   margin-left: -100px;
+}
+
+div#maincontents_major button#more>a {
+  color: white;
+  font: bold 20px "Noto Sans";
 }
 
 button.major {
@@ -415,6 +419,4 @@ div#maincontents_last button {
 }
 
 /* 컨텐츠 영역 끝*/
-@media screen and (max-width:1200px){
-  
-}
+@media screen and (max-width:1200px) {}
