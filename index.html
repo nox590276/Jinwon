@@ -222,17 +222,25 @@
         <p class="main_subtitle">JINWONCOMPANY ADRESS</p>
         <h2 class="main_title">찾아오시는 길</h2>
         <p id="map"></p>
-        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey="+ APP_KEY></script>
-        <script>
-          import {APP_KEY} from './config.js'
-          var container = document.getElementById('map');
-          var options = {
-            center: new kakao.maps.LatLng(37.62201609704858, 127.0866519202624 ),
-            level: 3
-          };
+        <script type="module">
+          import {APP_KEY} from './config.js';
       
-          var map = new kakao.maps.Map(container, options);
-        </script>
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = '//dapi.kakao.com/v2/maps/sdk.js?appkey=' + APP_KEY;
+          
+          document.head.appendChild(script);
+          
+          script.onload = function() {
+              var container = document.getElementById('map');
+              var options = {
+                  center: new kakao.maps.LatLng(37.62201609704858, 127.0866519202624 ),
+                  level: 3
+              };
+      
+              var map = new kakao.maps.Map(container, options);
+          }
+      </script>
       </div>
     </div>
 
