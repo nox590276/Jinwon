@@ -375,8 +375,7 @@ p#main_map {
   bottom: 100px;
   left: 50%;
   margin-left: -600px;
-  background: url(../images/simplemainmap.png);
-
+  background-color: white;
 }
 
 div#maincontents_last_wrap {
