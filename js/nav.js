@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       })
     }
-  }
+  }  
 
 
   function activateMenu(checkMenu) {

@@ -3,7 +3,6 @@ window.addEventListener('load', () => {
   const $businessSection = document.querySelectorAll('#business_section>li')
   
 
-  //  window.addEventListener('mousewheel',wheelWindow)
   window.addEventListener('scroll', scrollEvent)
  
 
