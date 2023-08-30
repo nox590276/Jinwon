@@ -126,6 +126,7 @@ ul#dot_list li {
   border-radius: 8px;
   background: #FFF;
   -webkit-transition: 0.2s ease;
+
 }
 
 ul#dot_list li.selected {
@@ -143,6 +144,7 @@ div#maincontents_business_wrap {
   width: 100%;
   height: 630px;
   background-color: #F2F2F2;
+  
 }
 
 div#maincontents_business {
